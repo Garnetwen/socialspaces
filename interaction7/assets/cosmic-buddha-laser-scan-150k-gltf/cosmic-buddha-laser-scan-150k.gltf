@@ -1,0 +1,142 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 80342,
+      "max": [
+        317.821533203125,
+        757.354309082031,
+        158.550079345703
+      ],
+      "min": [
+        -317.815155029297,
+        -757.354370117188,
+        -158.598770141602
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 80342,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 80342,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5125,
+      "count": 450000,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "MeshSmith mesh conversion tool",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 964104,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 964104,
+      "byteOffset": 964104,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 642736,
+      "byteOffset": 1928208,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1800000,
+      "byteOffset": 2570944,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 4370944,
+      "uri": "cosmic-buddha-laser-scan-150k.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "cosmic-buddha-laser-scan-150k-diffuse-4096.jpg"
+    },
+    {
+      "uri": "cosmic-buddha-laser-scan-150k-occlusion-4096.jpg"
+    },
+    {
+      "uri": "cosmic-buddha-laser-scan-150k-normals-4096.jpg"
+    }
+  ],
+  "materials": [
+    {
+      "name": "default",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.100000001490116,
+        "roughnessFactor": 0.800000011920929
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source": 0
+    },
+    {
+      "source": 1
+    },
+    {
+      "source": 2
+    }
+  ]
+}
